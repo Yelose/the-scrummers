@@ -1,0 +1,80 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.groups {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  align-items: center;
+  text-align: center;
+  padding-top: 10vh;
+  width: 100%;
+}
+
+.avatars {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.tania,
+.mary-bell,
+.nerea,
+.marina {
+  border: solid rgba(0, 0, 0, 0);
+  padding: 2%;
+  border-radius: 5%;
+}
+
+.tania {
+  background-color: #f4ee86;
+}
+.photo-tania {
+  background-image: url(/images/avatar-tania.png);
+  background-size: cover;
+}
+.photo-tania:hover {
+  background-image: url(/images/picture-tania.jfif);
+  background-position: center;
+}
+.mary-bell {
+  background-color: #eb9792;
+}
+
+.nerea {
+  background-color: #669298;
+}
+
+.marina {
+  background-color: #83d5d0;
+}
+
+.tools {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.icons {
+  margin: 8vw;
+  width: 80px;
+  height: 80px;
+}
+.bg-tools {
+  margin-top: 60px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4ee86;
+}
+.space {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  padding-top: 10vh;
+  align-items: center;
+}
